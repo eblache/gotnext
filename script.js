@@ -1,5 +1,5 @@
 const myUrl = "https://jsonbox.io/box_39ae5ad169db04082e9c";
-var myData = '{"name":"Drake"}';
+var myData = '{"name":"Drake"}'; //Test Data
 
 function readData(){
   $.ajax({
