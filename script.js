@@ -1,4 +1,6 @@
-const myUrl = "https://jsonbox.io/box_39ae5ad169db04082e9c";
+const myUrl = "https://jsonbox.io/box_39ae5ad169db04082e9c?sort=_createdOn";
+// Sorts in the Order that each name was created.
+
 var myData = '{"name":"Drake"}'; //Test Data
 
 function readData(){
