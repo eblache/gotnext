@@ -1,5 +1,5 @@
-const sortUrl = "https://jsonbox.io/box_39ae5ad169db04082e9c?sort=_createdOn";
-// Sorts in the Order that each name was created.
+const sortUrl = "https://jsonbox.io/box_39ae5ad169db04082e9c?sort=_updatedOn";
+// Sorts in the Order that each name was created/updated.
 
 const URL = "https://jsonbox.io/box_39ae5ad169db04082e9c";
 var testData = 'Evan';
