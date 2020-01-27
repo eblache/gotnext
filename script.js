@@ -36,11 +36,13 @@ function loadData(){
     }
   });
 }
+function buttonData(personID,personName){
+  console.log(personName,personID);
+}
 function displayHtml(data){
   data.forEach((person)=>{
-    $("#team1 ul").append("<li>"+person.name+"-"+person._id+"</li>");
-        console.log(person.name);
-    });
+    $("#card-ul-list").append("<li class='list-group-item'>"+person.name+"<button class='btn btn-primary float-right' value='"+person._id+"' id='"+person.name+"' onclick=buttonData(value,id)>Bench</button></li>");
+    });  
 }
 function deleteData(){
   $.ajax({
@@ -64,9 +66,5 @@ function deleteData(){
 $(document).ready(function(){
       //deleteData()
       readData();
-      console.log(delID);
 });
-
-
-
 
